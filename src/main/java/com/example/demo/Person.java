@@ -4,7 +4,10 @@ public class Person {
     private int id;
     private String name;
 
-    public Person() {}
+    // No-argument constructor (required by Jackson)
+    public Person() {
+        // Jackson needs this
+    }
 
     // Constructor (el def __init__ de python)
     public Person(int id, String name) {

@@ -1,4 +1,4 @@
-# Spring Boot Demo API
+# Spring Boot Demo REST API
 
 A simple REST API built with Spring Boot that manages person records with basic CRUD operations.
 
